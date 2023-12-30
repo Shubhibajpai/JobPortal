@@ -1,0 +1,103 @@
+body{
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(8.jpg);
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+header {
+  background-size: contain;
+  background :linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),#95ebee;
+  width: auto;
+  height: auto;
+  border: 2px rgb(14, 13, 13);
+  color: #070707;
+  text-align: center;
+  text-shadow:2px 2px 5px blue ;
+  padding: 20px;
+  font-size: x-small;
+  cursor: pointer;
+}
+
+nav ul {
+  list-style-type: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+nav li {
+  float: left;
+  cursor: pointer;
+}
+
+nav li a {
+  display: block;
+  color: #43a5be;
+  text-align: center;
+  cursor: pointer;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: #faf7f7;
+  cursor: pointer;
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    orientation:portrait;
+    width: 500px;
+    height: 200px;
+    background: url();
+    margin-top:1%;
+    cursor: pointer;
+ }
+ input[type=text],select,textarea{
+  width:400px;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border-color: #000000;
+}
+.an{
+  margin: auto;
+  padding: 0%;
+  margin-left: 10px;
+  margin-top: 5px;
+  border-color: #000000;
+  cursor: pointer;
+}
+.pw{
+  margin: auto;
+  padding: 0%;
+  cursor: pointer;
+  margin-left: 10px;
+  border-color: #000000;
+  border-width: 3%;
+}
+.l{
+  margin: auto;
+  width:20%;
+  padding:10px;
+  margin-left: 10px;
+  border-radius: 10px rgb(9, 66, 139);
+  background-color: #788ff3;
+  margin-top:10%;
+  cursor: pointer;
+}
+.l:hover{
+  background-color: #3211e9;
+  border-radius: 10px;
+  cursor: pointer;
+}

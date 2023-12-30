@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-size: contain;
+    width: auto;
+    height: inherit;
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(7.jpg);
+    text-decoration:double;
+    cursor: pointer;
+    text-shadow: #faf7f7;
+  }
+  
+  header {
+    background-size: contain;
+    background :linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),#95ebee;
+    width: auto;
+    height: auto;
+    border: 2px rgb(14, 13, 13);
+    color: #070707;
+    text-align: center;
+    cursor: pointer;
+    text-shadow:2px 2px 5px blue ;
+    padding: 20px;
+    font-size: x-small;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  nav li {
+    float: left;
+    cursor: pointer;
+  }
+  
+  nav li a {
+    display: block;
+    cursor: pointer;
+    color: #43a5be;
+    text-align: center;
+    padding: 14px 16px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    color: #faf7f7;
+ cursor: pointer;
+  }
+  
+  main {
+    padding: 20px;
+    font-size: x-large;
+    font-style:inherit;
+    font-style:bold;
+    cursor: pointer;
+    
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #94e497;
+    cursor: pointer;
+  }
+  footer{
+    font-size: larger;
+    font-display:inherit;
+    cursor: pointer;
+  }
+.choose{
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+  left: 550px;
+  cursor: pointer;
+}
+input[ type="file"]::-webkit-file-upload-button{
+  border: 2px solid  #4CAF50;
+  background-color: #4CAF50;
+  transition: 1s;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size:large;
+  color: #f0f0f0;
+  cursor: pointer;
+}
+input[ type="file"]::-webkit-file-upload-button:hover{
+  background-color: #94e497;
+  border: 2px solid #070707;
+cursor: pointer;
+}

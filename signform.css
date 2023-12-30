@@ -1,0 +1,83 @@
+.main{
+    background-image: url(3.jpg);
+
+}
+.head{
+    position:relative;
+    text-align: center;
+    background-color: rgb(102, 102, 187);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+    align-items: center;
+    align-content: center;
+    left: 392px;
+    cursor: pointer;
+}
+.form{
+    margin: 100px;
+    padding: 2px;
+}
+.fn{
+    margin:20px;
+    position: relative;
+    top: -450px;
+    left:350px;
+    height: 30px;
+    cursor: pointer;
+}
+.ln{
+    margin:20px;
+    position: relative;
+    top: -450px;
+    left:350px;
+    height: 30px;
+    cursor: pointer;
+}
+.e{
+    position: relative;
+    top: -450px;
+    left: 370px;
+    width: 385px;
+    height: 30px;
+    cursor: pointer;
+}
+.ce{
+    position: relative;
+    top: -430px;
+    left: 370px;
+    width: 385px;
+    height: 30px;
+    cursor: pointer;
+}
+.p{
+    position: relative;
+    top: -410px;
+    left: 370px;
+    width: 385px;
+    height: 30px;
+    cursor: pointer;
+}
+.cp{
+    position: relative;
+    top: -390px;
+    left: 370px;
+    width: 385px;
+    height: 30px;
+    cursor: pointer;
+}
+.s{
+    position: relative;
+    top: -370px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    left: 520px;
+    background-color: whitesmoke;
+    border-color:white ;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+}

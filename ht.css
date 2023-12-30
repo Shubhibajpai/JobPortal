@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+body{
+  background: #8eb1dd;
+}
+.container{
+  display: flex;
+  color: darkblue;
+}
+nav{
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  background: white;
+  width: 280px;
+  overflow: hidden;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.logo{
+  text-align: center;
+  display: flex;
+  margin: 10px 0 0 10px;
+}
+.logo img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.logo span{
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.job{
+  text-align: center;
+  display: flex;
+  margin: 5px 0 0 10px;
+}
+.job img{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.job span{
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.list{
+  text-align: center;
+  display: flex;
+  margin: 5px 0 0 10px;
+}
+.list img{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.list span{
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.resume{
+  text-align: center;
+  display: flex;
+  margin: 5px 0 0 10px;
+}
+.resume img{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.resume span{
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.contact{
+  text-align: center;
+  display: flex;
+  margin: 5px 0 0 10px;
+}
+.contact img{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.contact span{
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+
+
+a{
+  position: relative;
+  color: rgb(85, 83, 83);
+  font-size: 14px;
+  display: table;
+  width: 280px;
+  padding: 10px;
+}
+nav .fas{
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.logout{
+  position: absolute;
+  bottom: 50px;
+  background-color: rgb(33, 34, 85);
+  width: 110px;
+  height: 5px;
+  align-items: center;
+  left: 50px;
+  color: white;
+  text-align: center;
+}
+
+/* Main Section */
+.main{
+  position: relative;
+  padding: -30px;
+  width: 100%;
+}
+.main-top{
+  position: relative;
+  width: 500px;
+  align-items: center;
+  text-align: center;
+  left: 300px;
+  top: 10%;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px rgb(133, 34, 34);
+  color: rgb(6, 6, 48);
+}
+.main-top i{
+  position: relative;
+  left: 10px;
+  margin: 10px;
+  color: rgb(170, 152, 238);
+  cursor: pointer;
+}
+
+.main-skills{
+  display: flex;
+  margin-top: 120px;
+  text-shadow: 2px 2px 5px rgb(14, 13, 13);
+}
+.main-skills .card{
+  width: 230px;
+  height: 130px;
+  margin: 20px;
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+background-color: light rgb(85, 85, 163);
+}
+.main-skills .card h3{
+  margin: 5px;
+  text-transform: capitalize;
+}
